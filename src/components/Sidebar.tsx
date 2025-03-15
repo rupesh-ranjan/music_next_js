@@ -39,7 +39,7 @@ export function SidebarDemo({
     },
     {
       label: "About Us",
-      href: "#",
+      href: "/about",
       icon: (
         <IconUserSearch className="text-neutral-700 dark:text-neutral-200 h-5 w-5 shrink-0" />
       ),
@@ -140,7 +140,7 @@ const Dashboard = ({ children }: Readonly<{ children: React.ReactNode }>) => {
 const LogoImage = () => {
   return (
     <Image
-      src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      src="https://img.freepik.com/free-vector/v19-pla6_53876-40749.jpg?t=st=1742073209~exp=1742076809~hmac=2f8ccab206fa4b0b0305282382c610a0d2ea05d605cef04375ef25785b9707c3&w=826"
       alt="Music Logo"
       width={50}
       height={50}
