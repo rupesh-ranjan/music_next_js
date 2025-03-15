@@ -82,7 +82,7 @@ function Footer() {
         </div>
       </div>
       <p className="text-center text-sm pt-8">
-        © 2024 Music School. All rights reserved.
+        © {new Date().getFullYear()} Music School. All rights reserved.
       </p>
     </footer>
   );
