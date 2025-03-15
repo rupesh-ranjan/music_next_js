@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import testimonialData from "@/data/music_testimonials.json";
 const musicSchoolTestimonials = testimonialData.testimonials;
 function MusicSchollTestimonialCards() {
@@ -12,11 +12,7 @@ function MusicSchollTestimonialCards() {
       </h2>
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-6xl">
-          <InfiniteMovingCards
-            items={musicSchoolTestimonials}
-            direction="right"
-            speed="slow"
-          />
+          <AnimatedTestimonials testimonials={musicSchoolTestimonials} />
         </div>
       </div>
     </div>
