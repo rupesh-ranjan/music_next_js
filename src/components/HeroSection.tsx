@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Spotlight } from "./ui/spotlight-new";
-import { Button } from "./ui/moving-border";
+import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 function HeroSection() {
   return (
@@ -13,17 +13,18 @@ function HeroSection() {
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Dive into our comprehensive music courses and transform your musical
-          journey today. Whether you're a beginner or looking to refine your
-          skills, join us to unlock your true potential.
+          journey today. Whether you&apos;re a beginner or looking to refine
+          your skills, join us to unlock your true potential.
         </p>
-        <div className="mt-4">
+        <div className="mt-20 flex justify-center text-center">
           <Link href={"/courses"}>
-            <Button
-              borderRadius="1.75rem"
-              className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            <HoverBorderGradient
+              containerClassName="rounded-full"
+              as="button"
+              className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
               Explore Courses
-            </Button>
+            </HoverBorderGradient>
           </Link>
         </div>
       </div>
