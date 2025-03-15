@@ -4,11 +4,10 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
-import Link from "next/link";
 
 function page() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
+    <div className="min-h-screen bg-black py-12 pt-10">
       <h1 className="text-lg md:text-6xl text-center font-sans font-bold mb-8 text-white">
         All courses ({courseData.courses.length})
       </h1>
@@ -38,24 +37,6 @@ function page() {
                   alt={course.title}
                 />
               </CardItem>
-              <div className="flex justify-between items-center mt-20">
-                <CardItem
-                  translateZ={20}
-                  as={Link}
-                  href="https://twitter.com/mannupaaji"
-                  target="__blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                >
-                  Try now →
-                </CardItem>
-                <CardItem
-                  translateZ={20}
-                  as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                >
-                  Sign up
-                </CardItem>
-              </div>
             </CardBody>
           </CardContainer>
         ))}
