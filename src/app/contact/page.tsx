@@ -13,9 +13,9 @@ function MusicSchoolContactUs() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-10 relative">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 m-0 pt-0 relative">
       <BackgroundBeamsWithCollision className="absolute top-0 left-0 w-full h-full z-0">
-        <div className="max-w-2xl mx-auto p-4 pt-25 relative z-10">
+        <div className="max-w-2xl mx-auto p-4 pt-0 relative z-10">
           <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
             Contact Us
           </h1>
