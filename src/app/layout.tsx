@@ -17,10 +17,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Music School",
   description: "Learn music with the best teachers",
-  icons: {
-    icon: "/musicfavicon.ico",
-    shortcut: "/musicfavicon.ico",
-  },
 };
 
 export default function RootLayout({
