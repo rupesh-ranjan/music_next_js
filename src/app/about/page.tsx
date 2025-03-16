@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 function MusicSchoolAboutUs() {
@@ -60,12 +61,12 @@ function MusicSchoolAboutUs() {
       </div>
 
       <div className="text-center mt-12">
-        <a
+        <Link
           href="/courses"
           className="inline-block px-8 py-3 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-colors duration-200"
         >
           Start Your Musical Journey
-        </a>
+        </Link>
       </div>
     </div>
   );
