@@ -5,7 +5,7 @@
       "title": "Guitar Fundamentals",
       "slug": "guitar-fundamentals",
       "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-      "price": 99.99,
+      "price": 9999,
       "instructor": "John Doe",
       "isFeatured": true,
       "image": "https://images.unsplash.com/photo-1459305272254-33a7d593a851?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -15,7 +15,7 @@
       "title": "Piano for Beginners",
       "slug": "piano-for-beginners",
       "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-      "price": 109.99,
+      "price": 10999,
       "instructor": "Jane Smith",
       "isFeatured": true,
       "image": "https://images.unsplash.com/photo-1552422535-c45813c61732?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -25,7 +25,7 @@
       "title": "Advanced Vocal Techniques",
       "slug": "advanced-vocal-techniques",
       "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-      "price": 119.99,
+      "price": 11999,
       "instructor": "Emily Johnson",
       "isFeatured": true,
       "image": "https://images.unsplash.com/photo-1614625322127-fd3d693b0992?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -35,7 +35,7 @@
       "title": "Drumming Mastery",
       "slug": "drumming-mastery",
       "description": "Master the drums with our comprehensive course covering all skill levels.",
-      "price": 129.99,
+      "price": 12999,
       "instructor": "Mike Brown",
       "isFeatured": false,
       "image": "https://images.unsplash.com/photo-1602001373093-67aba9ae989e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -45,7 +45,7 @@
       "title": "Jazz Improvisation",
       "slug": "jazz-improvisation",
       "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-      "price": 139.99,
+      "price": 13999,
       "instructor": "Chris Davis",
       "isFeatured": false,
       "image": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -55,7 +55,7 @@
       "title": "Music Production Fundamentals",
       "slug": "music-production-fundamentals",
       "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-      "price": 149.99,
+      "price": 14999,
       "instructor": "Alex Wilson",
       "isFeatured": true,
       "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -65,7 +65,7 @@
       "title": "Songwriting Essentials",
       "slug": "songwriting-essentials",
       "description": "Learn the essentials of songwriting to express your musical creativity.",
-      "price": 159.99,
+      "price": 15999,
       "instructor": "Samantha Miller",
       "isFeatured": false,
       "image": "https://images.unsplash.com/photo-1593698054589-8c14bb66d2d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -75,7 +75,7 @@
       "title": "Electronic Music Production",
       "slug": "electronic-music-production",
       "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-      "price": 169.99,
+      "price": 16999,
       "instructor": "Luke Harris",
       "isFeatured": true,
       "image": "https://images.unsplash.com/photo-1461784180009-21121b2f204c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -85,7 +85,7 @@
       "title": "Classical Music History",
       "slug": "classical-music-history",
       "description": "Explore the rich history of classical music from its origins to the present day.",
-      "price": 179.99,
+      "price": 17999,
       "instructor": "Grace Lee",
       "isFeatured": false,
       "image": "https://images.unsplash.com/photo-1519412666065-94acb3f8838f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -95,7 +95,7 @@
       "title": "Blues Guitar Techniques",
       "slug": "blues-guitar-techniques",
       "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-      "price": 189.99,
+      "price": 18999,
       "instructor": "Ethan Moore",
       "isFeatured": true,
       "image": "https://images.unsplash.com/photo-1579797990768-555ac3a4c7e5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
