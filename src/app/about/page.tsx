@@ -25,7 +25,7 @@ function MusicSchoolAboutUs() {
             Our Story
           </h2>
           <p>
-            Founded in 2023 by Rupesh Ranjan and his team, a renowned pianist
+            Founded in 2005 by Rupesh Ranjan and his team, a renowned pianist
             with 20 years of teaching experience, we set out to create a
             platform that breaks down barriers to music education. Tired of
             seeing expensive lessons and rigid schedules hold students back, we
