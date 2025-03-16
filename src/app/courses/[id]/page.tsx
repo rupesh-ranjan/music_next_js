@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import { useRouter } from "next/navigation";
 import courseData from "@/data/music_courses.json";
 
 interface Params {
@@ -28,6 +28,7 @@ interface CoursePageProps {
 export default function CoursePage({ params: paramsPromise }: CoursePageProps) {
   const params: Params = React.use(paramsPromise);
   const courseId = Number(params.id);
+  const router = useRouter();
 
   if (isNaN(courseId)) {
     notFound();
@@ -40,6 +41,10 @@ export default function CoursePage({ params: paramsPromise }: CoursePageProps) {
   if (!course) {
     notFound();
   }
+
+  const handleBack = () => {
+    router.back(); // This will go to the previous page in history
+  };
 
   return (
     <div className="min-h-screen bg-black py-12 pt-10">
@@ -76,12 +81,12 @@ export default function CoursePage({ params: paramsPromise }: CoursePageProps) {
                 {course.instructor}
               </p>
             </div>
-            <Link
-              href="/courses"
+            <button
+              onClick={handleBack}
               className="mt-6 inline-block bg-transparent text-white border border-white/80 px-4 py-2 rounded-lg hover:bg-gray-200 hover:text-black transition-colors"
             >
-              ← Back to All Courses
-            </Link>
+              ← Back
+            </button>
           </div>
         </div>
       </div>
