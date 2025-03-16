@@ -1,7 +1,5 @@
 "use client";
-
 import React from "react";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 function MusicSchoolAboutUs() {
   return (
@@ -14,9 +12,9 @@ function MusicSchoolAboutUs() {
         <section className="text-center">
           <p>
             At <span className="text-teal-500 font-semibold">Music School</span>
-            , we believe that music is more than just notes—it's a journey of
-            self-expression and discovery. Our mission is to guide you every
-            step of the way, whether you're strumming your first chord or
+            , we believe that music is more than just notes, it&apos;s a journey
+            of self-expression and discovery. Our mission is to guide you every
+            step of the way, whether you&apos;re strumming your first chord or
             mastering complex compositions.
           </p>
         </section>
@@ -43,8 +41,8 @@ function MusicSchoolAboutUs() {
             From beginner tutorials to advanced techniques, our library of
             lessons covers guitar, piano, music theory, and songwriting and many
             more. With interactive videos, real-time feedback, and a supportive
-            community, we're here to help you find your sound and share it with
-            the world.
+            community, we&apos;re here to help you find your sound and share it
+            with the world.
           </p>
         </section>
 
@@ -53,17 +51,17 @@ function MusicSchoolAboutUs() {
             Our Promise
           </h2>
           <p>
-            We're more than just a tutorial site—we're your musical family.
-            Every lesson is crafted with care by expert instructors who've
-            played on stages and taught in classrooms worldwide. Join us, and
-            let's make music that matters, together.
+            We&apos;re more than just a tutorial site, we&apos;re your musical
+            family. Every lesson is crafted with care by expert instructors
+            who&apos;ve played on stages and taught in classrooms worldwide.
+            Join us, and let&apos;s make music that matters, together.
           </p>
         </section>
       </div>
 
       <div className="text-center mt-12">
         <a
-          href="/courses" // Replace with your actual signup/learn more page
+          href="/courses"
           className="inline-block px-8 py-3 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-colors duration-200"
         >
           Start Your Musical Journey
